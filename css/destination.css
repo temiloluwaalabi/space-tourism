@@ -212,7 +212,6 @@ body{
     }
     
     .destination-content{
-        background-color: red;
         display: flex;
         flex-direction: column;
         align-items: center;
