@@ -536,7 +536,7 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 500px;
+        height: 450px;
     }
     .destination-content-div{
         color: white;
@@ -557,7 +557,7 @@ body{
         font-weight: 500;
     }
     .destination-image img{
-        width: 40%;
+        width: 20%;
         padding-top: 0px;
         
     }
