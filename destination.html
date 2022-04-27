@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,8 +13,8 @@
 
 <body>
 
-    <div class="home-container">
-        <div class="nav-container">
+    <section class="home-container">
+        <header class="nav-container">
             <div class="logo-container">
                 <img src="images/logo.svg" alt="" class="logo">
                 <hr class="menu-line" />
@@ -37,10 +38,10 @@
                     <li><a href="technology.html"> TECHNOLOGY</a></li>
                 </ul>
             </div>
-        </div>
+        </header>
 
 
-        <div class="destination-content">
+        <main class="destination-content">
             <div class="destination-image">
                 <h2>01 <b class="bold-text">PICK YOUR DESTINATION</b></h2>
                 <img src="images/image-mars.png" alt="" id="main-image">
@@ -147,15 +148,16 @@
                             </div>
                         </div>
                     </div>
-            
+
                 </div>
 
             </div>
 
 
-        </div>
+        </main>
+    </section>
 
-       
+
 
         <script type="text/javascript">
             const moon = document.getElementById('moon-link');
@@ -163,24 +165,23 @@
             const europa = document.getElementById('europa-link');
             const titan = document.getElementById('titan-link');
             const mainImage = document.getElementById('main-image');
-            
 
-            moon.addEventListener('click', e=>{
+
+            moon.addEventListener('click', e => {
                 mainImage.src = "images/image-moon.png";
             });
 
-            mars.addEventListener('click', e=>{
+            mars.addEventListener('click', e => {
                 mainImage.src = "images/image-mars.png";
             });
 
-            europa.addEventListener('click', e=>{
+            europa.addEventListener('click', e => {
                 mainImage.src = "images/image-europa.png";
             });
 
-            titan.addEventListener('click', e=>{
+            titan.addEventListener('click', e => {
                 mainImage.src = "images/image-titan.png";
             });
-
         </script>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
