@@ -80,6 +80,8 @@ body{
 .crew-inner{
     display: flex;
     flex-direction: row;
+    background-color: red;
+    height: inherit;
 }
 
 .carousel-indicators{
@@ -160,9 +162,9 @@ body{
 }
 .crew-image{
     width: 90%;
-    height: 100%;
+    height: 95%;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .main-crew{
