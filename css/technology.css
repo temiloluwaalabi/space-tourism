@@ -80,7 +80,6 @@ body{
 .crew-inner{
     display: flex;
     flex-direction: row;
-    background-color: red;
     height: inherit;
 }
 
@@ -164,7 +163,6 @@ body{
     width: 90%;
     height: 95%;
     margin-left: 50px;
-    margin-top: 10px;
 }
 
 .main-crew{
