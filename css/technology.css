@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.home-container{
+    height: 100vh;
+    background-image: url(../images/background-technology-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo{
+    margin-right: auto;
+    width: 50px;
+}
+.logo-container{
+    padding: 10px;
+    padding-left: 50px !important;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.menu-line{
+    width: 90%;
+    height: 1%;
+    margin-right: -40px;
+    z-index: 12;
+    background-color: white;
+}
+.menu-container{
+    background-color: #54617586;
+    height: 70px;
+    padding: 10px;
+    width: 55%;
+    display: flex;
+    padding-left: 50px;
+}
+.menu-container ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    list-style: none;
+}
+.menu-container ul li{
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    margin-right: 15px;
+    word-spacing: 5px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-container ul li:active{
+    border-bottom: 1px solid white;
+}
+
+.crew-inner{
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    left: -60;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    list-style: none;
+    padding-left: 0;
+ }
+
+ .carousel-indicators li {
+    height: 70px !important;
+    width: 70px !important;
+    margin-right: 10px !important;
+    color: black !important;
+    border: 2px solid rgb(189, 189, 189) !important;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 100%;
+}
+
+
+
+.carousel-indicators .text[data-bs-target] {
+    width: auto;
+    height: px;
+    text-indent: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.crew-inner{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.crew-text-inner{
+    padding-left: 290px;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 65%;
+    align-items: left;
+    justify-content: center;
+    vertical-align: middle;
+}
+.crew-text-inner p{
+    width: 60%;
+    color: rgb(226, 226, 226);
+    font-weight: 400;
+}
+
+.crew-text-inner h5{
+    font-size: 24px;
+    color: rgb(210, 210, 210);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.crew-text-inner h1{
+    font-family: philosopher;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+.crew-image-inner{
+    width: 35%;
+    display: flex;
+    align-items: ;
+}
+.crew-image{
+    width: 90%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.main-crew{
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-menu{
+    display: none;
+}
+.tablet-menu-container{
+    display: none;
+}
+
+
+@media (max-width: 375px){
+    body{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .menu-container{
+        display: none;
+    }
+    .menu-line{
+        display: none;
+    }
+    .home-container{
+        margin: 0px !important;
+        height: 800px;
+        background-image: url(../images/background-technology-mobile.jpg);
+        padding-top: 0;
+        background-size: cover;
+    }
+    *{
+        margin: 0 !important;
+    }
+    .crew-inner{
+        margin: 0;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        align-items: center;
+        justify-items: center;
+        padding-top: 140px;
+    }
+    .crew-text-inner{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+        padding-top: 130px;
+
+    }
+    .crew-text-inner h5{
+        padding-bottom: 10px;
+        font-size: 15px;
+        color: rgb(89, 89, 89);
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .crew-text-inner h1{
+        font-family: philosopher;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .crew-text-inner p{
+        width: 100%;
+        color: rgb(133, 133, 133);
+        font-weight: 400;
+    }
+    .crew-image-inner{
+        padding-top: 0 !important;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-indicators{
+        position: absolute;
+        margin: 0;
+        padding: 30px;
+        padding-left: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 540px !important;
+     }
+    .carousel-indicators li {
+        width: 50px !important;
+        height: 50px !important;
+        position: relative;
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+
+    }
+    .carousel-indicators .text[data-bs-target] {
+        width: auto;
+        height: px;
+        text-indent: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .main-crew{
+        height: 540px;
+    }
+    .crew-header{
+       padding-top: px;
+       position: absolute;
+       margin-left: 30px !important;
+       color: rgb(148, 148, 148);
+       font-weight: 400;
+    }
+    .crew-header-crew{
+        color: white;
+        font-weight: 500;
+    }
+    .logo{
+        margin-right: auto;
+        margin-top: 10px !important;
+        margin-left: -20px !important;
+        width: 45px;
+    }
+    .logo-container{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .mobile-menu{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right: 20px;
+        width: 40%;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .menu-container{
+        display: none;
+    }
+    .menu-line{
+        display: none;
+    }
+    .tablet-menu-container{
+        background-color: #54617586;
+        height: 70px;
+        padding: 30px !important;
+        width: 80%;
+        display: flex;
+        padding-left: 0px !important;
+    }
+    .tablet-menu-container ul{
+        margin: o;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        align-items: center;
+        list-style: none;
+    }
+    .tablet-menu-container ul li{
+        padding-right: 30px;
+        display: flex;
+        align-items: center;
+        height: 70px;
+        padding: 10px;
+        margin-right: 15px;
+        word-spacing: 5px;
+    }
+    .tablet-menu-container a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .home-container{
+        margin: 0px !important;
+        height: 1000px;
+        background-image: url(../images/background-technology-tablet.jpg);
+        padding-top: 0;
+        padding-left: 0;
+        background-size: cover;
+    }
+    *{
+        margin: 0 !important;
+    }
+    .crew-inner{
+
+        transition: 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        height: 720px;
+        align-items: center;
+        justify-items: center;
+    }
+    .crew-text-inner{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+        padding-top: 200px;
+        padding-bottom: 50px;
+
+    }
+    .crew-text-inner h5{
+        padding-bottom: 10px;
+        font-size: 15px;
+        color: rgb(89, 89, 89);
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .crew-text-inner h1{
+        font-family: philosopher;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .crew-text-inner p{
+        width: 80%;
+        color: rgb(133, 133, 133);
+        font-weight: 400;
+    }
+    .crew-image-inner{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        padding: 0 !important;
+    }
+
+    .crew-image{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .carousel-indicators{
+        display: none;
+     }
+    .carousel-indicators li {
+        align-self: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px !important;
+        border-radius: 100%;
+        height: 12px !important;
+        width: 12px !important;
+    }
+    .main-crew{
+        height: 500px;
+    }
+    .crew-header{
+       padding-top: 30px;
+       position: absolute;
+       margin-left: 30px !important;
+       color: rgb(148, 148, 148);
+       font-weight: 400;
+    }
+    .crew-header-crew{
+        color: white;
+        font-weight: 500;
+    }
+    .logo{
+        margin-right: auto;
+        margin-top: 10px !important;
+        margin-left: -20px !important;
+        width: 45px;
+    }
+    .logo-container{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .mobile-menu{
+        display: none;
+    }
+}
