@@ -86,6 +86,7 @@ body{
 }
 
 .crew-inner{
+    background-color: red;
     display: flex;
     flex-direction: row;
     height: 540px;
