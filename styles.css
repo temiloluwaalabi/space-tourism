@@ -76,6 +76,7 @@ body{
     border-bottom: 1px solid white;
 }
 .home-content-container{
+    background-color: red;
     margin-top: 80px;
     margin-bottom: 80px;
     height: 460px;
