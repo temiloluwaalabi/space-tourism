@@ -248,17 +248,9 @@ body{
     }
 
     .carousel-indicators{
-        position: absolute;
-        margin: 0;
-        padding: 30px;
-        padding-left: 50px;
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        list-style: none;
-        margin-bottom: 540px !important;
+        display: none;
+        
+        
      }
     .carousel-indicators li {
         width: 50px !important;
