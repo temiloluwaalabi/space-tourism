@@ -89,7 +89,7 @@ body{
     background-color: red;
     display: flex;
     flex-direction: row;
-    height: 540px;
+    height: 470px;
     align-items: center;
     justify-items: center;
 }
