@@ -78,12 +78,7 @@ body{
 .menu-container ul li:active{
     border-bottom: 1px solid white;
 }
-.home-content-container{
-    margin-top: 80px;
-    margin-bottom: 80px;
-    height: 460px;
-    display: flex;
-}
+    
 
 .crew-inner{
     display: flex;
