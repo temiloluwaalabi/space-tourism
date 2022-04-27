@@ -192,107 +192,61 @@ body{
     }
     .home-container{
         margin: 0px !important;
-        height: 800px;
+        height: 680px;
         background-image: url(../images/background-technology-mobile.jpg);
         padding-top: 0;
         background-size: cover;
     }
-    *{
-        margin: 0 !important;
+    
+    .main-car{
+        margin-top: 40px;
+        display: flex;
+        height: 700px;
+        height: inherit;
+        flex-direction: column !important;
+        padding-top: 120px;
+    }
+    
+    .carousel-indicators{
+        
+       margin-bottom:350px;
+       position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        
     }
     .crew-inner{
-        margin: 0;
-        transition: 0.3s ease-in-out;
         display: flex;
         flex-direction: column;
-        height: 900px;
-        align-items: center;
-        justify-items: center;
-        padding-top: 140px;
     }
-    .crew-text-inner{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 30px;
-        padding-top: 130px;
 
-    }
-    .crew-text-inner h5{
-        padding-bottom: 10px;
-        font-size: 15px;
-        color: rgb(89, 89, 89);
-        text-transform: uppercase;
-        font-weight: 400;
-    }
-    .crew-text-inner h1{
-        font-family: philosopher;
-        font-size: 28px;
-        text-transform: uppercase;
-        color: white;
+    .crew-text-inner{
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        padding-left: 0;
+        padding: 10px;
+        font-size: 12px;
         margin-bottom: 20px;
     }
     .crew-text-inner p{
         width: 100%;
-        color: rgb(133, 133, 133);
-        font-weight: 400;
     }
     .crew-image-inner{
-        padding-top: 0 !important;
-        display: flex;
         width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .carousel-indicators{
-        display: none;
-        position: absolute;
-        margin: 0;
-        padding: 30px;
-        padding-left: 50px;
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        list-style: none;
-        margin-bottom: 540px !important;
-     }
-    .carousel-indicators li {
-        width: 50px !important;
-        height: 50px !important;
-        position: relative;
-        display: flex;
-        list-style: none;
+        height: 300px;
         padding-left: 0;
-
+        padding: 10px;
     }
-    .carousel-indicators .text[data-bs-target] {
-        width: auto;
-        height: px;
-        text-indent: 0;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    
-    }
-    .main-crew{
-        height: 540px;
-        position: relative;
-    }
-    .crew-header{
-       padding-top: px;
-       position: absolute;
-       margin-left: 30px !important;
-       color: rgb(148, 148, 148);
-       font-weight: 400;
-    }
-    .crew-header-crew{
-        color: white;
-        font-weight: 500;
+    .crew-image{
+        width: 100%;
+        margin-left: 0;
+        height: 100%;
+        padding: 20px;
     }
     .logo{
         margin-right: auto;
