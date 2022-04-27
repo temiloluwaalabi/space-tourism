@@ -84,7 +84,6 @@ body{
     display: flex;
     justify-self: center;
     height: 470px;
-    background-color: red;
     padding-right: 80px;
 }
 .destination-content-div{
@@ -143,7 +142,7 @@ body{
     background-color: transparent;
     padding: 10px;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .tablinks{
     color: rgb(177, 177, 177);
